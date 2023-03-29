@@ -1,18 +1,25 @@
-import  'bootstrap/dist/css/bootstrap.min.css'
-import AlignmentExample from './navbar/navar'
-import GroupExample from './card/card'
+
+import Navbar from './componetes/navbar/Navbar';
+
+import itemListContainer from './componetes/itemListContainer/itemListContainer';
 
 
 function App() {
   return (
-    <div className="App">
-     
-    <AlignmentExample/>
-    
-    <GroupExample/>
-    </div>
-   
+      <>
+          <Navbar/>
+          
+          
+    <itemListContainer greeting={'Bienvenidos'}/>
+
+       
+          
+      </>
   );
 }
+
+
+
+
 
 export default App;

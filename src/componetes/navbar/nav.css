@@ -1,0 +1,24 @@
+
+h3{
+  display:  flex;
+background-color: aqua;
+  justify-content: center;
+  
+}
+.tarjetas{
+  display: flex;
+  justify-content: space-between;
+}
+
+h2{
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+.logo1{
+  height: 100px;
+  padding: 10px;
+  display: flex;
+ justify-content: center;
+}
